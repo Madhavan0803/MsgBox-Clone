@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Message Box</h1>
+        <form id="messageForm">
+            <textarea id="messageBox" maxlength="200" placeholder="Type your message here..."></textarea>
+            <div id="counter" class="counter">0/200 characters</div>
+            <button type="submit" id="submitButton">Submit</button>
+            <div id="warning" class="warning hidden">Character limit exceeded!</div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
